@@ -1,4 +1,64 @@
-body {
-    background-color: black;
-    color: white;
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    background-color: rgb(121, 118, 124);
+    color: rgb(219, 230, 209);
+    height: fit-content;
+    padding: 16px;
+    
+}
+
+.header-style {
+    text-align: center;
+    font-size: 24px;
+    padding: 16px;
+    vertical-align: middle;
+}
+.nav-menu {
+    float: left;
+    color: chocolate;
+    background-color: rgb(224, 125, 125);
+    width: 320px;
+    padding: 10px 10px 0 20px;
+    margin: 20px 20px 0 0;
+   
+}
+.header-div {
+    
+
+}
+
+.aside-section {
+    clear: both;
+    margin: 20px 20px 0 10px;
+    width: 300px;
+    float: left;
+}
+
+.main-part {
+    margin-left: 320px;
+    clear: left;
+    width: 800px;
+}
+.paragraph-section {
+    width: 800px;
+    clear: left;
+    margin-left: 320px;
+    text-align: center;
+}
+
+.footer-style{
+    margin-top:20px;
+    text-align: center;
+    font-size: 16px;
+    background-color: cadetblue;
+    padding: 10px;
+}
+
+.li-item{
+    padding-left: 10px;
 }
